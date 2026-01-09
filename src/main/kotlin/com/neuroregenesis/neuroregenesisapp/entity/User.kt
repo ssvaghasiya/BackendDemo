@@ -13,5 +13,5 @@ open class User(
     open var email: String = "",
     open var password: String? = "",
     open var role: String = "USER",
-    val createdAt: Instant = Instant.now()
+    open val createdAt: Instant = Instant.now()
 )
