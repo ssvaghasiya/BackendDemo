@@ -3,8 +3,11 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/indusinn_neuro
-    username: indusinn_neuro_user
+#    url: jdbc:postgresql://localhost:5432/indusinn_neuro
+#    username: indusinn_neuro_user
+#    password: Savan@123
+    url: jdbc:postgresql://localhost:5432/neuro
+    username: neuro_user
     password: Savan@123
     driver-class-name: org.postgresql.Driver
 
